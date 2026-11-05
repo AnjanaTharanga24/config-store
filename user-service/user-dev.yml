@@ -24,10 +24,6 @@ eureka:
     instance-id: ${spring.application.name}-${random.int}
     # hostname: localhost
 
-services:
-  search:
-    active: DB
-
 keycloak:
   auth-server-url: http://localhost:8080
   realm: auraDOCS

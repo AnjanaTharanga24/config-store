@@ -24,16 +24,6 @@ eureka:
     instance-id: ${spring.application.name}-${random.int}
     # hostname: localhost
 
-keycloak:
-  auth-server-url: http://localhost:8080
-  realm: auraDOCS
-  admin:
-    username: tharanga24
-    password: Anji@24@
-    client-id: admin-cli
-    client-secret: xkYRswHpBX0l2oLPaVawVodS6uvBak4p
-    session-client-id: auradocs
-
 openapi:
   service:
     url: http://localhost:9191
